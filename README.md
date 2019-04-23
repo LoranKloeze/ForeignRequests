@@ -5,6 +5,9 @@ This Chrome extension adds a panel to the DevTools showing all requests a websit
 ## Status
 Some centuries before alpha status.
 
+## Screenshot
+![Alt text](pr/screenshot1.png?raw=true "Title")
+
 ## Installation
 This extension is not available in the Chrome store. You have to install it manually. That is an easy task, just following these steps:
 
