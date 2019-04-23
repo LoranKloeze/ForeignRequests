@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <script src="jquery.js"></script>
+    <script src="moment.js"></script>
+    <script src="devtools.js"></script>
+    <style>
+        #requestsTable td {
+            border: solid 1px darkgreen;
+        }
+    </style>
+</head>
+<body>
+<h1>Foreign request tracker</h1>
+<small>By <a target="_blank" href="https://www.twitter.com/lorankloeze">LoranKloeze</a></small>
+<p>This panel shows requests made by this website to foreign domains</p>
+<button id="btnClearTable" >Clear table</button>
+<table id="requestsTable">
+    <thead>
+        <tr>
+            <th>Foreign origin</th>
+            <th>Nr of requests made</th>
+            <th>Last request</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr><td colspan="3"><b>No foreign requests made yet</b></td></tr>
+
+    </tbody>
+</table>
+
+
+</body>
+</html>
